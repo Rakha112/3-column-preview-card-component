@@ -9,7 +9,6 @@
             display: flex;
             max-width: 920px;
             height: 500px;
-            
             h1 {
                 padding: 30px 0;
                 font-family: 'Big Shoulders Display', cursive;
@@ -36,7 +35,6 @@
                 a {
                     padding: 15px 30px;
                     border-radius: 50px;
- 
                     background-color: $very-light-gray;
                     color: $bright-orange;
                 }
@@ -53,7 +51,6 @@
                 a {
                     padding: 15px 30px;
                     border-radius: 50px;
- 
                     background-color: $very-light-gray;
                     color: $dark-cyan;
                 }
@@ -63,7 +60,6 @@
                     color: $very-light-gray;
                     background-color: $dark-cyan;
                 }
-                
             }
 
             .card3 {
@@ -73,7 +69,6 @@
                 a {
                     padding: 15px 30px;
                     border-radius: 50px;
- 
                     background-color: $very-light-gray;
                     color: $very-dark-cyan;
                 }
@@ -85,5 +80,4 @@
             }
         }
     }
-    
 }
