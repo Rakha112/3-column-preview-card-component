@@ -98,4 +98,94 @@ body {
     background-color: #004241;
   }
 }
+
+@media screen and (min-width: 375px) {
+  .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container .konten {
+    margin: 90px 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .container .konten h1 {
+    padding: 30px 0;
+    font-family: 'Big Shoulders Display', cursive;
+    color: #f2f2f2;
+    font-size: 40px;
+    text-transform: uppercase;
+  }
+  .container .konten p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.75);
+    line-height: 25px;
+    margin-bottom: 35px;
+  }
+  .container .konten a {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+  }
+  .container .konten .card1 {
+    padding: 48px 48px 55px 45px;
+    background-color: #e38826;
+    border-radius: 10px  10px 0 0;
+  }
+  .container .konten .card1 a {
+    padding: 15px 30px;
+    border-radius: 50px;
+    background-color: #f2f2f2;
+    color: #e38826;
+  }
+  .container .konten .card1 a:hover {
+    border: 2px #f2f2f2 solid;
+    color: #f2f2f2;
+    background-color: #e38826;
+  }
+  .container .konten .card2 {
+    padding: 48px 48px 55px 45px;
+    background-color: #006970;
+  }
+  .container .konten .card2 a {
+    padding: 15px 30px;
+    border-radius: 50px;
+    background-color: #f2f2f2;
+    color: #006970;
+  }
+  .container .konten .card2 a:hover {
+    border: 2px #f2f2f2 solid;
+    color: #f2f2f2;
+    background-color: #006970;
+  }
+  .container .konten .card3 {
+    padding: 48px 48px 55px 45px;
+    background-color: #004241;
+    border-radius: 0  0 10px 10px;
+  }
+  .container .konten .card3 a {
+    padding: 15px 30px;
+    border-radius: 50px;
+    background-color: #f2f2f2;
+    color: #004241;
+  }
+  .container .konten .card3 a:hover {
+    border: 2px #f2f2f2 solid;
+    color: #f2f2f2;
+    background-color: #004241;
+  }
+}
 /*# sourceMappingURL=main.css.map */
